@@ -28,6 +28,11 @@
 </p>
 
 ### Requirements
+- python 3.5 or above
+- tensorflow 1.12.0pyth
+- torch 0.4.1
+- cv2 4.0.0
+or simply
 - docker pull wrhuang/default
 - or docker pull jdegange/default
 - with minor further pip install
