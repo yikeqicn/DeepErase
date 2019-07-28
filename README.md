@@ -12,7 +12,7 @@
 - We present a [method](https://github.com/yikeqicn/DeepErase/tree/master/src/DataFactory) to programmatically generate artiﬁcial text images with realistic-looking artifacts, and use them to train the U-net-like model in a totally unsupervised manner.
 - The U-net-like model was trained in two modes:
   - [Standalone training](https://github.com/yikeqicn/DeepErase/tree/master/src/CleaningStandaloneModel): Optimize at Unet Segmentation loss only.
-  - [Joint training with downstream Recognition model](https://github.com/yikeqicn/DeepErase/tree/master/src/CleaningRecognitionJointModel): Optimize at Unet Segmentation loss + recognition CTC loss. To balance image cleaning and recognition performance. ** The RNN CTC based [HTR model](https://github.com/wronnyhuang/htr) was used as recognition model.
+  - [Joint training with downstream Recognition model](https://github.com/yikeqicn/DeepErase/tree/master/src/CleaningRecognitionJointModel): Optimize at Unet Segmentation loss + recognition CTC loss. To balance image cleaning and recognition performance. ** The RNN CTC based [HTR model](https://github.com/wronnyhuang/htr) was used as the recognition model.
   
 ### Result
 - Both validation pixel level segmentation accuracies were above 95%.
@@ -26,3 +26,8 @@
 <p align="center">
   <img  src="https://github.com/yikeqicn/DeepErase/blob/master/Recognition_IRS_Set.JPG">
 </p>
+
+### Requirements
+- docker pull wrhuang/default
+- or docker pull jdegange/default
+- with minor further pip install
