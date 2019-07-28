@@ -29,7 +29,7 @@
 
 ### Requirements
 - python 3.5 or above
-- tensorflow 1.12.0pyth
+- tensorflow 1.12.0
 - torch 0.4.1
 - cv2 4.0.0
 
