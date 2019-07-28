@@ -17,6 +17,10 @@
 - Downstream recognition performances were evaluated on validation images and IRS extractions. The IRS extractions were extracted from [NIST sd02 tax forms](https://www.nist.gov/srd/nist-special-database-2), and were not used in model training. The word recognition accuracy were improved and beat the naive Hough cv2 cleaning method.
 <p align="center">
   <img  src="https://github.com/yikeqicn/DeepErase/blob/master/Segmentation_Accuracy.JPG">
+</p>
+<p align="center">
   <img  src="https://github.com/yikeqicn/DeepErase/blob/master/Recognition_Validation_Set.JPG">
+</p>
+<p align="center">
   <img  src="https://github.com/yikeqicn/DeepErase/blob/master/Recognition_IRS_Set.JPG">
 </p>
