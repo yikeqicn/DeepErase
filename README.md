@@ -11,5 +11,5 @@
 ### Abstract
 - We present a [method](https://github.com/yikeqicn/DeepErase/tree/master/src/DataFactory) to programmatically generate artiﬁcial text images with realistic-looking artifacts, and use them to train the U-net-like model in a totally unsupervised manner.
 - The U-net-like model was trained in two modes:
-  - Standalone: 
-  - Joint training with downstream Recognition model:
+  - [Standalone training](https://github.com/yikeqicn/DeepErase/tree/master/src/CleaningStandaloneModel): 
+  - [Joint training with downstream Recognition model](https://github.com/yikeqicn/DeepErase/tree/master/src/CleaningRecognitionJointModel):
