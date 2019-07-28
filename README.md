@@ -13,6 +13,8 @@
 - The U-net-like model was trained in two modes:
   - [Standalone training](https://github.com/yikeqicn/DeepErase/tree/master/src/CleaningStandaloneModel): Optimize at Unet Segmentation loss only.
   - [Joint training with downstream Recognition model](https://github.com/yikeqicn/DeepErase/tree/master/src/CleaningRecognitionJointModel): Optimize at Unet Segmentation loss + recognition CTC loss. To balance image cleaning and recognition performance. ** [HTR CTC model](https://github.com/wronnyhuang/htr) was used as recognition model.
+  
+### Result
 - Both validation pixel level segmentation accuracies were above 95%.
 - Downstream recognition performances were evaluated on validation images and IRS extractions. The IRS extractions were extracted from [NIST sd02 tax forms](https://www.nist.gov/srd/nist-special-database-2), and were not used in model training. The word recognition accuracy were improved and beat the naive Hough cv2 cleaning method.
 <p align="center">
