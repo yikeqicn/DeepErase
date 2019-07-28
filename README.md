@@ -11,5 +11,5 @@
 ### Abstract
 - We present a method to programmatically generate artiﬁcial text images with realistic-looking artifacts, and use them to train the U-net-like model in a totally unsupervised manner.
 - The U-net-like model was trained in two modes:
--- Standalone:
--- Joint with Recognition model:
+  - Standalone:
+  - Joint with Recognition model:
